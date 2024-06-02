@@ -12,7 +12,7 @@ from keras.models import load_model
 from keras.preprocessing.image import img_to_array , load_img
 from keras.applications.resnet50 import ResNet50, preprocess_input, decode_predictions
 
-GOOGLE_API_KEY = "AIzaSyDjkyqmEZK5UjNuHerdomNwxCAO5Ist4uo"  
+GOOGLE_API_KEY = "YOUR API KEY"  
 genai.configure(api_key=GOOGLE_API_KEY)
 
 st.set_page_config(
